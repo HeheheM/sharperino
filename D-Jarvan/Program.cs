@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Net;
 using LeagueSharp;
@@ -745,7 +745,7 @@ namespace D_Jarvan
                     }
                     else
                     {
-                        b = minion.Health <= smiteDmg && jungleMinions.Any(name => minion.Name.StartsWith(name) && !jungleMinions.Any(name => minion.Name.Contains("Mini"));
+                        b = minion.Health <= smiteDmg && jungleMinions.Any(name => minion.Name.StartsWith(name));
                     }
 
                     if (b)
